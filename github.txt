@@ -1,0 +1,66 @@
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github
+$ git version
+git version 2.43.0.windows.1
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github       
+$ git config --global user.name "sergiollul"
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github       
+$ git config --global user.name
+sergiollul
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github       
+$  git config --global user.email "sergiolluljuegos@gmail.com"
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github       
+$ git ini
+git: 'ini' is not a git command. See 'git --help'.
+
+The most similar commands are
+        init
+        gui
+        init-db
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github       
+$ git init
+Initialized empty Git repository in C:/Users/Usuario/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github/.git/
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github (master)
+$ git add .
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github (master)
+$ git commit -m "first commit"
+[master (root-commit) 6102fb9] first commit
+ 3 files changed, 13 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 script.js
+ create mode 100644 style.css
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github (master)
+$ git branch -M main
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github (main)
+$ git branch -M master
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github (master)
+$ git remote add origin https://github.com/sergiollul/tiendaOnline_SSP.git
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github (master)
+$ git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 448 bytes | 224.00 KiB/s, done.
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github (master)      
+$ git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+Sergio@M-BCK-2 MINGW64 ~/Documents/MSMK University/UNIT_1_Programming & Coding/04_git-github (master)      
+$
